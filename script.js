@@ -9,7 +9,7 @@ butao.addEventListener('click', () => {
 const number = document.getElementById('input').value
 
 if (number %2 === 0){
-    number.innerHTML = ||par
+
 } else {
     (number %2 === 0)
     ||impar
