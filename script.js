@@ -37,25 +37,30 @@ butao.addEventListener('click', () => {
 
 
 
-/* 
-const idadeDigitada = document.getElementById('idade')
-const botao = document.getElementById('botao')
-const paragrafo = document.getElementById('paragrafo')
+
+
+
+/* const nome = document.getElementById('name')
+const idadeDigitada = document.getElementById('idade');
+const botao = document.getElementById('botao');
+const paragrafo = document.getElementById('divisores');
 
 botao.addEventListener('click', () => {
-    if(idadeDigitada >=70){
-        paragrafo.innerHTML = "voce ja pode dirigir, se aposentar e nao e obrigado a votar  "
-    } else if (idadeDigitada >=65){
-        paragrafo.innerHTML = "voce ja pode dirigir, votar e pode se aposentar"
-    } else if (idadeDigitada >=18){
-        paragrafo.innerHTML = "voce pode dirigir e votar, mas nao pode se aposentar"
-    } else if (idadeDigitada <18){
-        paragrafo.innerHTML = "voce nao pode dirigir nem votar, nem se aposentar"
-    }
-}) 
+    const nomeDigitado = nome.value; // obtém o valor do nome digitado
+    const idade = parseInt(idadeDigitada.value); // obtém o valor da idade digitada e converte para um número
 
+
+  if (idade >= 70) {
+    paragrafo.innerHTML = ` Você, ${nomeDigitado}, já pode dirigir, se aposentar e não é obrigado a votar.`; $(nome[''])
+  } else if (idade >= 65) {
+    paragrafo.innerHTML = `Você, ${nomeDigitado}, já pode dirigir, votar e pode se aposentar.`;
+  } else if (idade >= 18) {
+    paragrafo.innerHTML = `Você, ${nomeDigitado}, pode dirigir e votar, mas não pode se aposentar.`;
+  } else if (idade < 18) {
+    paragrafo.innerHTML = `Você, ${nomeDigitado}, não pode dirigir nem votar, nem se aposentar.`;
+  }
+});
  */
-
 
 
 
